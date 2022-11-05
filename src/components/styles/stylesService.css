@@ -1,0 +1,39 @@
+.Services{
+    padding-bottom: 50px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-image: url(https://i.pinimg.com/originals/1f/99/81/1f9981080a58aa85b83f3bd455b73ad9.gif);
+    gap: 20px;
+}
+.services__cart{
+    border: 1px solid;
+    width: 300px;
+    border-radius: 8px;
+    text-align: center;
+   
+}
+@media (min-width: 1440px) {
+    .Services{
+        height: 100vh;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        justify-content: center;
+        align-items: center;
+        justify-items: center;
+    }
+    .title__service{
+        position: relative;
+        left: 410px;
+        font-size: 50px;
+    }
+    .info__service{
+        position: relative;
+        top: 100px;
+        right: 410px;
+        font-size: 30px;
+    }
+}

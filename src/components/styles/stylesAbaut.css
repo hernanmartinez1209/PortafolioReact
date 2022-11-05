@@ -1,0 +1,130 @@
+.img__about {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  aspect-ratio: 1;
+}
+.About {
+    height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  /* background-color: #404258; */
+ background-image: url(https://i.pinimg.com/originals/1f/99/81/1f9981080a58aa85b83f3bd455b73ad9.gif);
+}
+.title__About{
+    font-size: 37px;
+}
+.subtitle__About{
+    margin: 10px 0;
+}
+.info__About{
+    margin: 10px 0;
+    padding: 10px;
+}
+.contain__About{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    list-style: none;
+    padding: 10px ;
+    border: 1px solid;
+    gap: 5px;
+
+}
+.info_text{
+    border: 1px solid;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    font-size: 12.5px;
+    padding: 5px;
+}
+.info_text:hover{
+    background: #00ff88;
+    background: linear-gradient(to top, #00ff88 0%, #61efff 100%);
+    cursor: pointer;
+}
+.btn__cv{
+    background-color: crimson;
+    font-size: 17px;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 50px;
+    cursor: pointer;
+}
+.contain__proyect{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+.minicar{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+.contain__icons{
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    gap: 10px;
+    list-style: none;
+    position: relative;
+}
+.title__card-proyet{
+    font-size: 25px;
+}
+
+.icon_tecnologi{
+    font-size: 39px;
+    list-style: none;
+    background-color: #6B728E ;
+    border-radius: 50%;
+
+}
+.bxl-html5{
+    color: red;
+}
+.bxl-react{
+    color: #61a3ff;
+}
+.bxl-css3{
+    color: blue;
+}
+.bxl-javascript{
+    color: yellow;
+}
+.bxl-redux{
+    color: orange;
+}
+
+@media (min-width: 1440px) {
+  .About{
+  height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  .education{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 50px;
+  }
+  
+}
+
+
+/*.info_text{
+    border: 1px solid;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    font-size: 14px;
+}*/

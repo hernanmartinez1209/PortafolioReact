@@ -1,0 +1,29 @@
+.Contact{
+   
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+    background-image: url(https://i.pinimg.com/originals/1f/99/81/1f9981080a58aa85b83f3bd455b73ad9.gif);
+}
+.title__contac{
+    padding-top: 50px;
+}
+.box__contac{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    list-style: none;
+    
+    
+}
+.info__contac:hover{
+    background: #00ff88;
+    background: linear-gradient(to top, #00ff88 0%, #61efff 100%);
+    cursor: pointer;
+}
+
+

@@ -1,0 +1,39 @@
+/* .box__Navbar{
+    width: 100%;
+    
+    border: 1px solid #fff;
+    display: flex;
+    flex-wrap: wrap;
+} */
+
+.nav__box-links{
+    width: 100%;
+    height: 50px;
+    /* background-color: #19294a; */
+    background-image: url(https://i.pinimg.com/originals/1f/99/81/1f9981080a58aa85b83f3bd455b73ad9.gif);
+    border-bottom: 1px solid;
+}
+.ul__links-contain{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    flex-direction: row-reverse;
+    margin-right: 50px;
+
+}
+.nav-links{
+    width: 65px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    margin-top: 5px; 
+    box-shadow: 1px 1px  1px #fff;
+    border-radius: 10px;
+}
+.nav-links:hover{
+    border: 1px solid;
+    margin-top: 10px;
+   background-image: url(https://www.memoory.es/wp-content/uploads/2017/04/tumblr_static_tumblr_static__640.gif);
+}

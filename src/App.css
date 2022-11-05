@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,900&display=swap');
+:root{
+    -color-bg:#19294a ;
+    -color-bg-btn:#EB1D36;
+    -color-bg-cart: #2d3a58;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: #fff;
+    
+}
+body{
+    background-color:#19294a;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+/* .Navbar{
+    display: flex;
+    justify-content: flex-start;
+    align-items: stretch;
+    flex-wrap: nowrap;
+    align-content: stretch;
+
+}
+.Navbar nav {
+    flex-direction:initial;
+    background-color: #fff;
+    
+} */
+textarea,
+input{
+    color: #19294a;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    width: 100%;
+    height: 100px;
+    background-image: url(https://i.pinimg.com/originals/1f/99/81/1f9981080a58aa85b83f3bd455b73ad9.gif);
+    background: linear-gradient(to top, rgb(0, 255, 136,0.5) 0%, rgb(97, 239, 255,0.5) 100%);
+    background: rgb(0, 255, 136,0.5);
+}
