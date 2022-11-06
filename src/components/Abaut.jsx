@@ -5,7 +5,7 @@ const Abaut = () => {
     <div className="About">
       <h2 className="title__About">About Me</h2>
       <h4 className="subtitle__About">
-        Main information About Me and What i Loce To Do.
+      Información principal sobre mí y lo que quiero hacer.
       </h4>
       <img
         className="img__about"
@@ -14,7 +14,7 @@ const Abaut = () => {
       />
       <article className="info__About">
         <h2 className="Name__About">
-          Hello ,I'm Hernan Martinez,tegucigalpa Honduran
+        Hola soy Hernan Martinez y soy De Tegucigalpa Honduras
         </h2>
         <p className="presentacion__About">
           hola Soy soy un Desarrollador frond-end mandame un mensaje por el

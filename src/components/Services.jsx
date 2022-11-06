@@ -4,7 +4,7 @@ const Services = () => {
   return (
     <div className='Services'>
       <h2 className='title__service'>My Sevices</h2>
-      <p className='info__service'>i have worked with A Number Of Clients.</p>
+      <p className='info__service'>soy diseñador web y te muestro mis servicios .</p>
       <div className="services__cart">
         <img src="https://img.icons8.com/fluency/512/media-queries.png" alt="img__services" width="97px" />
         <h2>Web Delepment</h2>

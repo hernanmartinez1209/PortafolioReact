@@ -23,7 +23,7 @@
 .info__contac:hover{
     background: #00ff88;
     background: linear-gradient(to top, #00ff88 0%, #61efff 100%);
-    cursor: pointer;
+  
 }
 
 
