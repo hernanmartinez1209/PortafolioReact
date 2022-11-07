@@ -38,9 +38,11 @@
     margin-top: 10px;
    background-image: url(https://www.memoory.es/wp-content/uploads/2017/04/tumblr_static_tumblr_static__640.gif);
 } */
- 
+ .Navbar__contain{
+    background-image: url(https://www.memoory.es/wp-content/uploads/2017/04/tumblr_static_tumblr_static__640.gif);
+
+ }
 .menu{
-    
     display: flex;
     gap: 1rem;
     position: fixed;
@@ -49,7 +51,8 @@
     width: 100%;
     flex-direction: column;
     align-items: center;
-    background-color: darkgrey;
+    background-image: url(https://www.memoory.es/wp-content/uploads/2017/04/tumblr_static_tumblr_static__640.gif);
+    /* background-color: rgba(255, 248, 248, 0.5); */
     transform: translateX(200%);
     transition: transform(0.5s);
    
@@ -65,6 +68,25 @@
     transform: translateX(0);
 
 }
+.nav-links{
+    margin-top: 5px; 
+    box-shadow: 1px 1px  1px #fff;
+    border-radius: 10px;
+    padding: 5px;
+}
+.nav-links:hover{
+    border: 1px solid;
+    margin-top: 10px;
+   background-image: url(https://www.memoory.es/wp-content/uploads/2017/04/tumblr_static_tumblr_static__640.gif);
+}
+.logo{
+    background-color: rgba(255, 255, 255, 0.502);
+    height: 50px;
+    position: absolute;
+    left: 150px;
+    top: 10px;
+    border-radius: 5px;
+ }
 @media (min-width: 700px) {
     .fa-solid{
         display: none;
@@ -80,4 +102,52 @@
         height: 50px;
         transform: translateX(0);
     }
+    .logo{
+        background-color: rgba(255, 255, 255, 0.502);
+        height: 50px;
+        position: absolute;
+        left: 450px;
+        
+        border-radius: 5px;
+        z-index: 50000;
+     }
+}
+@media (min-width: 1024px) {
+    .nav-links{
+        position: relative;
+        left: 630px;
+     }
+     .logo{
+        background-color: rgba(255, 255, 255, 0.502);
+        height: 50px;
+        position: absolute;
+        left: 50px;
+        top: 10px;
+        border-radius: 5px;
+        z-index: 50000;
+     }
+     .logo{
+        background-color: rgba(255, 255, 255, 0.502);
+        height: 50px;
+        position: absolute;
+        left: 90px;
+        top: 10px;
+        border-radius: 5px;
+        z-index: 50000;
+     }
+}
+@media (min-width: 1440px){
+     .nav-links{
+        position: relative;
+        left: 1300px;
+     }
+     .logo{
+        background-color: rgba(255, 255, 255, 0.502);
+        height: 50px;
+        z-index: 50000;
+        position:fixed;
+        left: 50px;
+        top: 10px;
+        border-radius: 5px;
+     }
 }

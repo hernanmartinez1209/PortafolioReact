@@ -25,5 +25,11 @@
     background: linear-gradient(to top, #00ff88 0%, #61efff 100%);
   
 }
-
+@media (min-width: 1024px){
+    .Contact{
+        height: 1076px;
+        padding: 10px;
+    }
+   
+}
 

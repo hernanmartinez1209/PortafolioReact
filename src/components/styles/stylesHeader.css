@@ -1,7 +1,7 @@
-
+h2{
+    text-shadow: 10px 10px 10px black;
+}
 .Hedaer{
-
-    
     width: 100%;
     height: 100vh;
     display: flex;
@@ -68,9 +68,34 @@
     border-radius: 50%;
     
 }
+.contain__iconsH{
+    display: flex;
+    gap: 10px;
+    list-style: none;
+}
+.icon_tecnologiH{
+    margin-top: 50px;
+    font-size: 50px;
+}
+
+@media (min-width: 1024px){
+    .Hedaer{
+     background-image: url(https://i.pinimg.com/originals/1f/99/81/1f9981080a58aa85b83f3bd455b73ad9.gif);
+     height: 100vh;
+    }
+  
+}
 @media (min-width: 1440px) {
     .Hedaer{
  background-image: url(https://i.pinimg.com/originals/1f/99/81/1f9981080a58aa85b83f3bd455b73ad9.gif);
 
+    }
+    .contain__iconsH{
+        display: flex;
+        gap: 50px;
+        list-style: none;
+    }
+    .icon_tecnologi{
+        margin-top: 50px;
     }
 }

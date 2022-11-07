@@ -9,7 +9,7 @@ const Navbar = () => {
 
   return (
     <nav className="Navbar__contain">
-      {/* <h2>HMhernanMartinez</h2> */}
+      <img className="logo" src="./imgs/logo-removebg-preview.png" alt="" / >
       <div className="menu"id="menu">
         <Link className="nav-links" to="/Contact">
           Contact

@@ -16,6 +16,15 @@ const Header = () => {
                     
                     </ul>
             </article>
+               <h2>skills</h2>
+            <ul className="contain__iconsH">
+                <li><i className="icon_tecnologiH bx bxl-html5"></i></li>
+                <li><i className="icon_tecnologiH bx bxl-react"></i></li>
+                <li><i className="icon_tecnologiH bx bxl-css3"></i></li>
+                <li><i className="icon_tecnologiH bx bxl-javascript"></i></li>
+                <li><i className="icon_tecnologiH bx bxl-redux"></i></li>
+                <li><i className="icon_tecnologiH icon_header fa-brands fa-github"></i></li>
+            </ul>
         </div>
     )
 }

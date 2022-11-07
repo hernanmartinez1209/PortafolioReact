@@ -117,7 +117,18 @@
     grid-template-columns: 1fr 1fr;
     margin-top: 50px;
   }
-  
+   
+}
+@media (min-width: 1024px) {
+     .About{
+        display: flex;
+        flex-direction: column;
+     }  
+     .education{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-top: 50px;
+      }  
 }
 
 

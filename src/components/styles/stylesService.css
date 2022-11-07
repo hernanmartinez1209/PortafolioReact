@@ -15,6 +15,29 @@
     text-align: center;
    
 }
+@media (min-width: 1024px) {
+    .Services{
+        height: 100vh;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        justify-content: center;
+        align-items: center;
+        justify-items: center;
+    }
+    .title__service{
+        position: relative;
+        left: 250px;
+        bottom: 20px;
+        font-size: 50px;
+    }
+    .info__service{
+        position: relative;
+        top: 60px;
+        right: 250px;
+        font-size: 30px;
+    }
+}
 @media (min-width: 1440px) {
     .Services{
         height: 100vh;

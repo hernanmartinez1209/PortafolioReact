@@ -75,6 +75,7 @@ const Abaut = () => {
       <a href="./docs/HOJADEVIDAHERNANMARTINEZ.pdf" className="btn__cv">Dolownland My CV</a>
       {/* <button className="btn__cv">Dolownland My CV</button> */}
      
+        
         <div className="mune__bottom">
           <ul>
             <h2>My Education</h2>
@@ -91,12 +92,7 @@ const Abaut = () => {
               </div>
             </div>
           </ul>
-          <ul>
-            {/* <div className="experience">
-              <h2>My Expericence</h2>
-              <p>sin Experiencia</p>
-            </div> */}
-          </ul>
+          
         </div>
       </div>
     
