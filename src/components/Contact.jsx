@@ -6,12 +6,12 @@ import Form from './Form'
 const Contact = () => {
     return (
         <div className='Contact'>
-            <h2 className='title__contac'>Contact Me</h2>
-            <p>Feel free To Contact Me Any Time.</p>
+            <h2 className='title__contac'>Contáctame</h2>
+            <p>Siéntete libre de contactarme en cualquier momento!</p>
             <Form />
             <article>
-                <h3>let's talk about everything!</h3>
-                <p>Que esperas mandame un mensaje Comentame tu idea de tu App web para tu negocio o empresa y lo aremos realidad</p>
+                <h3>¡hablemos de todo!</h3>
+                <p>Que esperas mandame un mensaje Comentame tu idea de tu App web para tu negocio o empresa y lo haremos realidad</p>
                 <ul className='box__contac'>
                     <li className='info__contac'>
                         <h3>Phone:</h3>

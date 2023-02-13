@@ -17,9 +17,10 @@ const Abaut = () => {
         Hola soy Hernan Martinez y soy De Tegucigalpa Honduras
         </h2>
         <p className="presentacion__About">
-          hola Soy soy un Desarrollador frond-end mandame un mensaje por el
+        hola Soy soy un Desarrollador front-end mandame un mensaje por el
           formulario de igual manera te dejo mis links aqui abajo para que
-          puedas contactarte con migo y agamos cosas increibles
+          puedas contactarte conmigo y hagamos cosas increíbles 
+
         </p>
         <ul className="contain__About">
           <li className="info_text">
@@ -62,7 +63,7 @@ const Abaut = () => {
             <span>
               <i className="fa-solid fa-map-location"></i>
             </span>
-            Col travesia Tegucigalpa Honduras
+            Col travesía Tegucigalpa Honduras
           </li>
           <li className="info_text">
             <span>
@@ -81,12 +82,12 @@ const Abaut = () => {
             <h2>My Education</h2>
             <div className="education">
              <div className="item__education">
-             <h4>Acalemlo</h4>
+             <h4>Academlo</h4>
               <h3>2022 - actual</h3>
               <img src="./imgs/academlo-icon-shadow-removebg-preview.png" alt="academlo" width="97px"/>
               </div>
               <div className="item__edicatio">
-              <h4>Universidad Nacional Autonoma De Honduras</h4>
+              <h4>Universidad Nacional Autónoma De Honduras</h4>
               <h3>UNAH</h3>
               <img src="./imgs/Escudo_de_la_UNAH.svg-removebg-preview.png" alt="UNAH" width="97px"/>
               </div>
