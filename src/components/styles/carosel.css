@@ -1,0 +1,63 @@
+.info__sitio{
+    width: 327px;
+}
+.info__sitio1{
+    width: 327px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.info__sitio2{
+    width: 327px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+.info__sitio3{
+    width: 327px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+}
+.info__sitio4{
+    width: 327px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.title{
+    text-align: center;
+    padding-bottom: 50px;
+}
+.pc1{
+    display: flex;
+}
+.h2{
+    text-align: center;
+    padding-bottom: 70px;
+}
+/* @media (min-width: 1440px) {
+  
+  }
+  @media (min-width: 1024px) {
+  
+  } */
+  
+  
+/* Agrega estos estilos en un archivo CSS separado o en la sección <style> de tu componente */
+
+/* Estilo para el contenedor principal del carrusel */
+.carousel-container {
+    max-width: 300px; /* Ancho máximo del carrusel */
+    margin: 0 auto; /* Centrar el carrusel horizontalmente */
+       
+}
+/* .caja_perfil{
+   background-image: url('https://i.pinimg.com/originals/69/80/58/698058d1d4f38bd1ceef0b3eed72f7aa.gif');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 500px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1000px;
+}  
+   */

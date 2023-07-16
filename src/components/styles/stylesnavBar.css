@@ -38,10 +38,10 @@
     margin-top: 10px;
    background-image: url(https://www.memoory.es/wp-content/uploads/2017/04/tumblr_static_tumblr_static__640.gif);
 } */
- .Navbar__contain{
+ /* .Navbar__contain{
     background-image: url(https://www.memoory.es/wp-content/uploads/2017/04/tumblr_static_tumblr_static__640.gif);
 
- }
+ } */
 .menu{
     display: flex;
     gap: 1rem;
@@ -51,7 +51,9 @@
     width: 100%;
     flex-direction: column;
     align-items: center;
-    background-image: url(https://www.memoory.es/wp-content/uploads/2017/04/tumblr_static_tumblr_static__640.gif);
+    /* background-image: url(https://i.pinimg.com/originals/1f/99/81/1f9981080a58aa85b83f3bd455b73ad9.gif); */
+
+    /* background-image: url(https://www.memoory.es/wp-content/uploads/2017/04/tumblr_static_tumblr_static__640.gif); */
     /* background-color: rgba(255, 248, 248, 0.5); */
     transform: translateX(200%);
     transition: transform(0.5s);
@@ -73,11 +75,14 @@
     box-shadow: 1px 1px  1px #fff;
     border-radius: 10px;
     padding: 5px;
+    
 }
 .nav-links:hover{
-    border: 1px solid;
-    margin-top: 10px;
-   background-image: url(https://www.memoory.es/wp-content/uploads/2017/04/tumblr_static_tumblr_static__640.gif);
+    border-radius: 15px;
+    border: #00ff88 3px solid;
+    /* border: 1px solid;
+    margin-top: 10px; */
+   /* background-image: url(https://www.memoory.es/wp-content/uploads/2017/04/tumblr_static_tumblr_static__640.gif); */
 }
 .logo{
     background-color: rgba(255, 255, 255, 0.502);
@@ -115,18 +120,17 @@
 @media (min-width: 1024px) {
     .nav-links{
         position: relative;
-        left: 630px;
+        left: 960px;
      }
      .logo{
         background-color: rgba(255, 255, 255, 0.502);
         height: 50px;
         position: absolute;
-        left: 50px;
-        top: 10px;
+        left: 1px;      
         border-radius: 5px;
         z-index: 50000;
      }
-     .logo{
+     /* .logo{
         background-color: rgba(255, 255, 255, 0.502);
         height: 50px;
         position: absolute;
@@ -134,7 +138,7 @@
         top: 10px;
         border-radius: 5px;
         z-index: 50000;
-     }
+     } */
 }
 @media (min-width: 1440px){
      .nav-links{

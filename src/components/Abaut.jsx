@@ -3,15 +3,15 @@ import stylesAbaut from "../components/styles/stylesAbaut.css";
 const Abaut = () => {
   return (
     <div className="About">
-      <h2 className="title__About">About Me</h2>
+      <h2 className="title__About">Quien soy</h2>
       <h4 className="subtitle__About">
       Información principal sobre mí y lo que quiero hacer.
       </h4>
-      <img
+      {/* <img
         className="img__about"
         src="./imgs/fotoPersonal.jpeg"
         alt="Photo__personal"
-      />
+      /> */}
       <article className="info__About">
         <h2 className="Name__About">
         Hola soy Hernan Martinez y soy De Tegucigalpa Honduras
@@ -69,22 +69,23 @@ const Abaut = () => {
             <span>
               <i className="fa-solid fa-network-wired"></i>
             </span>
-            Avaliable
+            Dispónible
           </li>
         </ul>
+        <br />
+      <a href="./docs/HOJADEVIDAHERNANMARTINEZ.pdf" className="btn__cv">Descargar Mi CV</a>
       </article>
-      <a href="./docs/HOJADEVIDAHERNANMARTINEZ.pdf" className="btn__cv">Dolownland My CV</a>
       {/* <button className="btn__cv">Dolownland My CV</button> */}
-     
+     <br />
         
         <div className="mune__bottom">
           <ul>
-            <h2>My Education</h2>
+            <h2>Mi educacion</h2>
             <div className="education">
              <div className="item__education">
              <h4>Academlo</h4>
               <h3>2022 - actual</h3>
-              <img src="./imgs/academlo-icon-shadow-removebg-preview.png" alt="academlo" width="97px"/>
+              <img src="./imgs/academlo-icon-shadow-removebg-preview.png" alt="academlo" width="157px"/>
               </div>
               <div className="item__edicatio">
               <h4>Universidad Nacional Autónoma De Honduras</h4>

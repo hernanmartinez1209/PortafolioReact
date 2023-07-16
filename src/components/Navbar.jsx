@@ -11,20 +11,20 @@ const Navbar = () => {
     <nav className="Navbar__contain">
       <img className="logo" src="./imgs/logo-removebg-preview.png" alt="" / >
       <div className="menu"id="menu">
-        <Link className="nav-links" to="/Contact">
-          Contact
+        <Link className="nav-links" to="/">
+          Inicio
         </Link>
-        <Link className="nav-links" to="/Services">
-          Services
+        <Link className="nav-links" to="/Abaut">
+          Sobre Mi
         </Link>
         <Link className="nav-links" to="/Proyectos">
           Proyectos
         </Link>
-        <Link className="nav-links" to="/Abaut">
-          About
+        <Link className="nav-links" to="/Services">
+          Servicios
         </Link>
-        <Link className="nav-links" to="/">
-          Home
+        <Link className="nav-links" to="/Contact">
+          Contactame
         </Link>
       </div>
      

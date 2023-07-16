@@ -23,11 +23,11 @@ const Form = () => {
 }
   return (
     <form onSubmit={handleSubit} className='form__Contact' >
-        <label htmlFor="email">Email</label>
+        <label htmlFor="email">Correo</label>
       <input type="email" placeholder="Email" id="email"  />
-      <label htmlFor="name">Name</label>
+      <label htmlFor="name">Nombre</label>
       <input type="text" placeholder="Name" id="name" />
-      <label htmlFor="mensaje">Message</label>
+      <label htmlFor="mensaje">Mesaje</label>
       <textarea
         name=""
         id="mensaje"
@@ -36,7 +36,7 @@ const Form = () => {
         placeholder="Message"
     
       ></textarea>
-      <button className="btn_from">Submit</button>
+      <button className="btn_from">Enviar</button>
     </form>
   );
 };

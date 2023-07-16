@@ -1,23 +1,8 @@
-h2{
+/* h2{
     text-shadow: 10px 10px 10px black;
-}
-.iconTalwin{
-    width: 40px;
-    position: relative;
-    top: 52px;
-    background-color: #fff;
-    color: #fff;
-    border-radius: 50%;
-    height: 40px;
-}
-.donwIncon{
-    position: relative;
-    top: 52px;
-    background-color: #fff;
-    color: #fff;
-    border-radius: 50%;
-    height: 40px;
-}
+
+} */
+
 .Hedaer{
     width: 100%;
     height: 100vh;
@@ -25,14 +10,14 @@ h2{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: #fff;
+    /* color: #fff; */
     /* background-image: url(https://thumbs.gfycat.com/ConcreteHastyIndochinesetiger-size_restricted.gif); */
-    background-image: url(https://phoneky.co.uk/thumbs/screensavers/down/places/moonlight_QaObdsT9.gif);
+    /* background-image: url(https://phoneky.co.uk/thumbs/screensavers/down/places/moonlight_QaObdsT9.gif); */
     background-size: cover;
     background-repeat: no-repeat;
 
 }
-.Headaer__img{
+/* .Headaer__img{
     width: 160px;
     height: 190px;
     border-radius: 2%;
@@ -40,7 +25,7 @@ h2{
     margin: 10px;
    position: relative;
    bottom: 10px;
-}
+} */
 .p__Header{
     text-align: center;
 }
@@ -85,28 +70,16 @@ h2{
     border-radius: 50%;
     
 }
-.contain__iconsH{
-    display: flex;
-    gap: 10px;
-    list-style: none;
-}
-.icon_tecnologiH{
-    margin-top: 50px;
-    font-size: 50px;
-}
 
 @media (min-width: 1024px){
     .Hedaer{
-     background-image: url(https://i.pinimg.com/originals/1f/99/81/1f9981080a58aa85b83f3bd455b73ad9.gif);
+     /* background-image: url(https://i.pinimg.com/originals/1f/99/81/1f9981080a58aa85b83f3bd455b73ad9.gif); */
      height: 100vh;
     }
   
 }
 @media (min-width: 1440px) {
-    .Hedaer{
- background-image: url(https://i.pinimg.com/originals/1f/99/81/1f9981080a58aa85b83f3bd455b73ad9.gif);
-
-    }
+   
     .contain__iconsH{
         display: flex;
         gap: 50px;

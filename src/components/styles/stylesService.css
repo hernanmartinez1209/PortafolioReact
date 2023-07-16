@@ -1,19 +1,45 @@
-.Services{
+
+@media (min-width: 1024px){
+    .Services{
+        
+        /* background-image: url(https://i.pinimg.com/originals/1f/99/81/1f9981080a58aa85b83f3bd455b73ad9.gif); */
+    }
+    .carousel-container {
+        max-width: 1242px; /* Ancho máximo del carrusel */
+        margin: 0 auto; /* Centrar el carrusel horizontalmente */
+      }
+      
+    .services__cart{
+        width: 100px;
+    }
+    .info_services{
+        width: 300px;
+    }
+    .title__service{
+        text-align: center;
+    }
+    .info__service1{
+        text-align: center;
+        padding-bottom: 50px;
+    }
+}
+
+
+/* .Services{
+    .services__cart{
+        border: 1px solid;
+        width: 300px;
+        border-radius: 8px;
+        text-align: center;
+       
+    }
     padding-bottom: 50px;
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    background-image: url(https://i.pinimg.com/originals/1f/99/81/1f9981080a58aa85b83f3bd455b73ad9.gif);
     gap: 20px;
-}
-.services__cart{
-    border: 1px solid;
-    width: 300px;
-    border-radius: 8px;
-    text-align: center;
-   
 }
 @media (min-width: 1024px) {
     .Services{
@@ -59,4 +85,4 @@
         right: 410px;
         font-size: 30px;
     }
-}
+} */

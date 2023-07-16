@@ -14,17 +14,17 @@ const Contact = () => {
                 <p>Que esperas mandame un mensaje Comentame tu idea de tu App web para tu negocio o empresa y lo haremos realidad</p>
                 <ul className='box__contac'>
                     <li className='info__contac'>
-                        <h3>Phone:</h3>
+                        <h3>Telefono:</h3>
                         <i className='bx bxs-phone-call'></i>
                         <p>+504 97354802</p>
                     </li>
                     <li className='info__contac'>
-                        <h3>Email :</h3>
+                        <h3>Correo :</h3>
                         <i className='bx bx-envelope' ></i>
                         <p>hernanconce1213@gmail</p>
                     </li>
                     <li className='info__contac'>
-                        <h3>Addres :</h3>
+                        <h3>Direccion :</h3>
                         <i className='bx bx-current-location' ></i>
                         <p>Honduras, Tegucigalpa</p>
                     </li>

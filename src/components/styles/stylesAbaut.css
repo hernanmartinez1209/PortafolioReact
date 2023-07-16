@@ -15,7 +15,7 @@
   align-items: center;
   text-align: center;
   /* background-color: #404258; */
- background-image: url(https://i.pinimg.com/originals/1f/99/81/1f9981080a58aa85b83f3bd455b73ad9.gif);
+ /* background-image: url(https://i.pinimg.com/originals/1f/99/81/1f9981080a58aa85b83f3bd455b73ad9.gif); */
 }
 .title__About{
     font-size: 37px;
@@ -42,12 +42,18 @@
     display: flex;
     gap: 10px;
     flex-direction: column;
-    font-size: 12.5px;
+    font-size: 15.5px;
     padding: 5px;
 }
 .info_text:hover{
-    background: #00ff88;
+    border: #00ff88 3px solid;
+    border-radius: 3px;
+    /* background: #00ff88;
     background: linear-gradient(to top, #00ff88 0%, #61efff 100%);
+     */
+    text-shadow: 2px 2px 4px rgba(1, 0, 0, 4.8);
+    font-size: 14px;
+    padding: 2px;
     
 }
 .btn__cv{
