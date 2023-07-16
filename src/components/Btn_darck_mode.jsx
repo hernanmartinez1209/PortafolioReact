@@ -20,7 +20,7 @@ export const Btn_darck_mode = () => {
       className={`dark-mode-button ${darkMode ? 'dark-mode' : ''}`}
       onClick={handleDarkModeToggle}
     >
-      {darkMode ?'Modo Oscuro'  :  'Modo Claro'}
+      {darkMode ?'🌑'  :  '🌞'}
     </button>
   )
 }
