@@ -65,6 +65,14 @@
     margin-bottom: 50px;
     cursor: pointer;
 }
+.btn__cv:hover{
+    border: #00ff88 3px solid;
+    border-radius: 3px;
+    font-size: 15px;
+}
+.h7{
+    margin-left: 10px;
+}
 .contain__proyect{
     display: flex;
     flex-wrap: wrap;

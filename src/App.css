@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;1,300&display=swap');
 :root{
     -color-bg:#19294a ;
     -color-bg-btn:#EB1D36;
@@ -9,7 +9,7 @@
     margin: 0;
     box-sizing: border-box;
   
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     
     
 }

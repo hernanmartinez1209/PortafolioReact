@@ -11,7 +11,7 @@ const Form = () => {
         }
         
         alert("Hello! I am an alert box!!");
-        const url = 'https://formsubmit.co/ajax/hernanconce011228@hotmail.com'
+        const url = 'https://formsubmit.co/ajax/hernanconce1213@gmail.com'
     axios.post(url,data)
     .then(res => console.log(res.data))
     .catch(err => console.log(err))

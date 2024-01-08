@@ -40,7 +40,7 @@ export const Carousel = () => {
           <img src="./imgs/css-removebg-preview.png" alt="Image 2"  width={'200px'}/>
         </div>
         <div>
-          <img src="./imgs/boo-removebg-preview.png" alt="Image 3"  width={'320px'}/>
+          <img src="https://brandlogos.net/wp-content/uploads/2021/09/bootstrap-logo.png" alt="Image 3"  width={'250px'}/>
         </div>
         <div>
           <img src="./imgs/react-removebg-preview.png" alt="Image 3"  width={'200px'}/>
@@ -56,6 +56,12 @@ export const Carousel = () => {
         </div>
         <div>
           <img src="./imgs/Captura_de_pantalla_2023-07-13_234631-removebg-preview.png" alt="" srcset=""  width={'200px'}/>
+        </div>
+        <div>
+          <img src="https://cdn3d.iconscout.com/3d/free/thumb/free-flutter-5562357-4642761.png?f=webp" alt="" srcset=""  width={'200px'}/>
+        </div>
+        <div>
+          <img src="https://upload.wikimedia.org/wikipedia/commons/c/c6/Dart_logo.png" alt="" srcset=""  width={'200px'}/>
         </div>
       </Slider>
     </div>
